@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+body{
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Outfit', sans-serif;
+    
+}
+
+.container{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 450px;
+  margin-top: 200px;
+  margin-left: 80px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 3px 4px black;
+  font-family: 'Outfit', sans-serif;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.logo>h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.e{
+  color:#6892E5;
+  display: inline-block;
+  transform: scale(-1,1);
+  border-bottom: 3px solid;
+  border-radius: 3.5px;
+  transition-duration: 350ms;
+}
+
+
+input{
+  height: 60px;
+  width: 350px;
+  border-style: none;
+  color:#6892E5 ;
+  border-radius: 100px;
+  box-shadow: inset 2.5px 2.5px 4px black;
+  background-color:white;
+  text-align: end;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 30px;
+  outline: none;
+  font-family: 'Outfit', sans-serif;
+}
+
+input::placeholder{
+  color: lightgrey;
+  opacity: 4;
+}
+
+.launch-search{
+  border-style: none;
+  border-radius: 25px;
+  color: white;
+  background-color: #6892E5;
+  font-size: 18px;
+  box-shadow: 0px 2px 4px black;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition-duration: 350ms;
+  height: 50px;
+  width: 150px;
+  
+}
+
+.launch-search:hover{
+  transform: scale(1.1,1.1);
+  background-color:  #fff;
+  color:  #6892E5;
+  border-radius: 0%;
+  border-bottom: 2px solid  #6892E5;
+  border-top:1px solid #6892E5 ;
+  box-shadow: 1px 2px 4px black;
+  
+}
+.logo{
+  margin-top: 30px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.e:hover{
+  transform: scale(1.1,1.1);
+  
+  color: #87a5e2;
+}
+.container2{
+  visibility:hidden;
+}
+/*This is the style for the carrier display*/
+
+.container2{
+  margin-top: 200px;
+  padding: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 3px 3px 10px black ;
+  font-family: 'Outfit', sans-serif;
+   
+}
+h1{
+  color:#6892E5;
+  font-family: 'Outfit', sans-serif;
+}

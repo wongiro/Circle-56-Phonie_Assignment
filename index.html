@@ -1,19 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phonie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <h2>make some magic here!!</h2>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body>
+  
+  <div class="container hide1">
+    <div class="logo"> 
+      <h1>Phoni<span class="e">E</span></h1>
+    </div>  
+
+<!--     added  -->
+    <div>
+        <p>Detect your network provider</p>
+    </div>
+<!--     added -->
+
+<!--     Edited placeholder and input type -->
+    <div class="input-area">
+       <input type="tel" id="userInput" 
+           placeholder="08012345678">
+    </div>
+
+<!--     added -->
+    <div>
+        <p id="message" ></p>
+    </div>
+    
+  <div>
+    <button id="launch-search" class="launch-search" onclick="myFunction()">Launch search</button>
+  </div>
+    
+  </div>
+ <!-- The markup for the form phase ends here--> 
+
+ <!-- The markup for the carrier display begins here-->
+ <div class="container2 hide2">
+  <div class="glo Carrier">
+    <h1>Your carrier is...</h1>
+    <img src="glo.png" alt="Glo">
+  </div>
+
+  <div class="mtn Carrier">
+      <img src="Mtn.png" alt="mtn">
+  </div> -->
+
+  <div class="mobile Carrier">
+    <h1>Your carrier is...
+      <span class="switch-images" >
+        <img src="9 mobile.png" alt="9 mobile">
+      </span>
+    </h1> 
+     
+   </div>
+
+  <div class="airtel Carrier">
+    <img src="Airtel.png" alt="airtel">
+  </div>
+</div>
+
+  <script src="script.js"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>
